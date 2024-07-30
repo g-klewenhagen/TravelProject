@@ -8,15 +8,20 @@ container{
     margin: 0 auto;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-}
-
 section {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.grid {
+    display: grid;
+    grid-gap: 30px;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url("/src/images/Neues_Schloss_Schlossplatzspringbrunnen_Schlossplatz_Stuttgart_2015_01.jpg");
