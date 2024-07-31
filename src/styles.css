@@ -20,6 +20,7 @@ section.secondary {
 
 .img-responsive{
 max-width:100%;
+display:block;
 }
 .embed{
     width:100%
