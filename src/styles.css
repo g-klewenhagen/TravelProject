@@ -14,6 +14,10 @@ section {
     padding: 50px;
 }
 
+section.secondary {
+    background: #f8f8f8;
+}
+
 img{
 max-width: 400px;
 max-height: 400px;
@@ -26,6 +30,10 @@ max-height: 400px;
 
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-3-columns-with-first-narrow {
@@ -79,6 +87,51 @@ header h6 {
 main {
     background-color: white;
                 }
+
+main h2 {
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                    line-height: 1.5;
+                                    margin: 0;
+                                    letter-spacing: 5px;
+                                    color: #272044;
+                                    opacity: 0.3;
+                                    text-transform: uppercase;
+                                }
+
+main h3 {
+                                                                    font-weight: 700;
+                                                                    font-size: 40px;
+                                                                    line-height: 1.5;
+                                                                    color: #272044;
+                                                                    margin: 0;
+                                                                }
+
+                                                                                                                                main h4 {
+                                                                                                                                    font-weight: 700;
+                                                                                                                                    font-size: 24px;
+                                                                                                                                    line-height: 1;
+                                                                                                                                    color: #272044;
+                                                                                                                                    margin: 0;
+                                                                                                                                }
+
+main h5 {
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0;
+    line-height: 1;
+    color: #272044;
+}
+
+main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #272044;
+    opacity: 0.7;
+}
+
 .card {
     background: white;
     margin: 30px 0;
