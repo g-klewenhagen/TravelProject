@@ -1,9 +1,10 @@
-body{
+body {
     text-align: center;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     background: #272044;
 }
-.container{
+
+.container {
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -18,12 +19,14 @@ section.secondary {
     background: #f8f8f8;
 }
 
-.img-responsive{
-max-width:100%;
-display:block;
+.img-responsive {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
-.embed{
-    width:100%
+
+.embed {
+    width: 100%;
     aspect-ratio: 1/1;
 }
 
@@ -44,25 +47,35 @@ display:block;
     grid-template-columns: 1fr 2fr 2fr;
 }
 
-.card-header.grid{
-    grid-gap:0;
+.card-header.grid {
+    grid-gap: 0;
 }
 
-header{
+.card-header {
+    display: flex;
+}
+
+.card-header img,
+.card-header iframe {
+    width: 50%;
+}
+
+header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url("/src/images/Neues_Schloss_Schlossplatzspringbrunnen_Schlossplatz_Stuttgart_2015_01.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        text-align: center;
-        padding: 200px 0;
-    }
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+}
+
 header h1 {
     font-weight: 700;
     font-size: 96px;
     line-height: 1;
     margin: 30px 0;
-    }
+}
 
 header h2 {
     font-weight: 400;
@@ -70,6 +83,7 @@ header h2 {
     line-height: 1.5;
     margin: 0;
 }
+
 header h6 {
     font-weight: 900;
     font-size: 24px;
@@ -77,6 +91,7 @@ header h6 {
     letter-spacing: 5px;
     margin: 0;
 }
+
 header a {
     font-weight: 700;
     font-size: 14px;
@@ -90,11 +105,11 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     background: white;
-        }
+}
 
 main {
     background-color: white;
-                }
+}
 
 main h2 {
     font-weight: 700;
@@ -105,7 +120,7 @@ main h2 {
     color: #272044;
     opacity: 0.3;
     text-transform: uppercase;
-    }
+}
 
 main h3 {
     font-weight: 700;
@@ -113,7 +128,7 @@ main h3 {
     line-height: 1.5;
     color: #272044;
     margin: 0;
-    }
+}
 
 main h4 {
     font-weight: 700;
@@ -121,7 +136,7 @@ main h4 {
     line-height: 1;
     color: #272044;
     margin: 0;
-    }
+}
 
 main h5 {
     font-weight: 700;
@@ -178,6 +193,7 @@ footer {
     padding: 100px 0;
     max-height: 200px;
 }
+
 footer h3 {
     font-weight: 700;
     font-size: 20px;
@@ -207,34 +223,36 @@ footer a {
     opacity: 0.7;
 }
 
- @media (max-width: 900px) {
+@media (max-width: 900px) {
     header {
         padding: 60px 0;
-            }
-        
+    }
+
     header h1 {
         font-size: 48px;
-            }
-        
+    }
+
     header h6 {
         font-size: 20px;
-             }
-        
+    }
+
     header h3 {
         font-size: 12px;
-            }
-    .grid{
+    }
+
+    .grid {
         grid-template-columns: 1fr;
     }
+
     section {
         padding: 30px;
-          }
-    
+    }
+
     .card-header img {
         display: none;
-          }
-    
+    }
+
     .embed {
         aspect-ratio: 16 / 9;
-          }
     }
+}
